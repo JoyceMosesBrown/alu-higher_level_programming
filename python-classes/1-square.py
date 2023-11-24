@@ -8,6 +8,6 @@ class Square:
     >>> sqaure_2 = Sqaure(87)
     """
 
-    def _init_(self, size: int) -> None:
-        """ _init_ the size with a params of int """
+    def __init__(self, size: int) -> None:
+        """ __init__ the size with a params of int """
         self.__size = size
